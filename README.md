@@ -28,8 +28,10 @@ IMAGE_SERVER_BASE_URL=https://reqres.in/img/faces
 APP_NAME=SPECIFIC GROUP ASSIGNMENT
 ```
 
-## Installation
+# Setup
+**[IMPORTANT]** Make sure you have created the `assets/avatars` folder in your root directory before starting.
 
+## Installation
 ```bash
 $ yarn install
 $ yarn prisma:generate
