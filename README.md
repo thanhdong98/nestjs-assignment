@@ -13,7 +13,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Set up environment
+# Set up environment
+
+**[IMPORTANT]** Make sure you have created the `assets/avatars` folder in your root directory before starting.
 
 ```.env
 DATABASE_URL=postgresql://<user>:<password>@localhost:5432/postgres?schema=public
@@ -28,8 +30,7 @@ IMAGE_SERVER_BASE_URL=https://reqres.in/img/faces
 APP_NAME=SPECIFIC GROUP ASSIGNMENT
 ```
 
-# Setup
-**[IMPORTANT]** Make sure you have created the `assets/avatars` folder in your root directory before starting.
+
 
 ## Installation
 ```bash
