@@ -68,7 +68,7 @@ export class UserService {
 
   async getDetailUser(id: number) {
     const userInfoBaseUrl = this.configService.get<string>('USER_INFO_BASE_URL');
-    console.log('url', `${userInfoBaseUrl}/${id}`);
+
     const { data } = await this.httpService.axiosRef<{ data: User }>({
       method: 'GET',
       url: `${userInfoBaseUrl}/${id}`,
